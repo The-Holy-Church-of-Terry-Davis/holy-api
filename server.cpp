@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
+#include "logger.h"
 
 using namespace std;
 
@@ -20,6 +21,8 @@ void handleRequest(int clientSocket) {
 }
 
 void startServer(int port) {
+    Logger logger("log.txt", INFO);
+    logger.info("starting server");
     int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
     struct sockaddr_in address;
     address.sin_family = AF_INET;
@@ -27,6 +30,7 @@ void startServer(int port) {
     address.sin_port = htons(port);
     bind(serverSocket, (struct sockaddr*) &address, sizeof(address));
     listen(serverSocket, 5);
+    logger.info("started server on http://localhost:8080");
 
     while (true) {
         struct sockaddr_in clientAddress;
