@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+g++ *.cpp *.h* */*.cpp */*.h */*.h -o api

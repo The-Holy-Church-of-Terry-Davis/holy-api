@@ -1,6 +1,9 @@
-#include "server.h"
+#include "server/server.h"
+
+using namespace std;
 
 int main() {
-    startServer(8080);
+    Server server(8080);
+    server.start();
     return 0;
 }
