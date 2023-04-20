@@ -1,2 +1,2 @@
-[INFO] [2023-04-20 18:17:41 UTC] handling request for path: /style.css
-[INFO] [2023-04-20 18:17:41 UTC] serving file for path: /style.css
+[INFO] [2023-04-20 19:36:51 UTC] handling request for URI: /
+[INFO] [2023-04-20 19:36:51 UTC] serving default content: index.cpp
