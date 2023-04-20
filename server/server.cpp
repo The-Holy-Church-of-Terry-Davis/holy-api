@@ -7,10 +7,30 @@
 #include <unistd.h>
 #include <fstream>
 #include <arpa/inet.h>
+#include <algorithm>
 
 #include "../logger/logger.h"
 
 using namespace std;
+
+string toLower(const std::string& str) {
+    string result = str;
+    transform(result.begin(), result.end(), result.begin(), [](unsigned char c){ return tolower(c); });
+    return result;
+}
+
+string getMimeType(const string& requestPath) {
+    string type = requestPath.substr(requestPath.find_last_of(".") + 1);
+    type = toLower(type);
+
+    if (type == "css") {
+        type = "text/css";
+    } else {
+        type = "text/html";
+    }
+
+    return type;
+}
 
 void handleRequest(int clientSocket, const string& requestPath) {
     Logger logger("log.txt", INFO);
@@ -29,7 +49,7 @@ void handleRequest(int clientSocket, const string& requestPath) {
 
         // Send 404 response with HTTP cat image
         stringstream buffer;
-        buffer << "HTTP/1.1 302 Found\r\n"
+        buffer << "HTTP/1.1 404 Not Found\r\n"
                << "Content-Type: text/html\r\n"
                << "Location: https://http.cat/404.jpg\r\n"
                << "\r\n";
@@ -41,7 +61,7 @@ void handleRequest(int clientSocket, const string& requestPath) {
         // Read file contents into buffer
         stringstream buffer;
         buffer << "HTTP/1.1 200 OK\r\n"
-               << "Content-Type: text/html\r\n"
+               << "Content-Type: " << getMimeType(requestPath) << "\r\n"
                << "\r\n"
                << file.rdbuf();
         string responseStr = buffer.str();
@@ -109,4 +129,3 @@ void Server::start() {
         handleRequest(clientSocket, requestPath);
     }
 }
-

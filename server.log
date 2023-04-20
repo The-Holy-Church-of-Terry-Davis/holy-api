@@ -1,0 +1,52 @@
+[INFO] [2023-04-20 14:15:14 UTC] Handle request for path: /
+[INFO] [2023-04-20 14:15:14 UTC] File opened: ./www/index.html
+[INFO] [2023-04-20 14:15:14 UTC] File sent: ./www/index.html
+[INFO] [2023-04-20 14:16:08 UTC] Handle request for path: /index.html
+[INFO] [2023-04-20 14:16:08 UTC] File opened: ./www/index.html
+[INFO] [2023-04-20 14:16:08 UTC] File sent: ./www/index.html
+[INFO] [2023-04-20 14:16:17 UTC] Handle request for path: /favicon.ico
+[INFO] [2023-04-20 14:16:17 UTC] File opened: ./www/favicon.ico
+[INFO] [2023-04-20 14:16:17 UTC] File sent: ./www/favicon.ico
+[INFO] [2023-04-20 14:16:22 UTC] Handle request for path: /style.css
+[INFO] [2023-04-20 14:16:22 UTC] File opened: ./www/style.css
+[INFO] [2023-04-20 14:16:22 UTC] File sent: ./www/style.css
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
+[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
+[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
