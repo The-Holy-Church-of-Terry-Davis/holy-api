@@ -7,8 +7,7 @@ THE API IS LOCATED AT: https://api.thcotd.repl.co
 
 `www` hosts the static files.
 
-`./compile` compiles the project into a single executable: `./api`
-`./api` runs it.
+`./compile` compiles the project into a single executable: `./api`.
 
 ## Endpoints:
 ```
