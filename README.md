@@ -1,7 +1,7 @@
 # holy-api
 
 hello, ok so...
-this is a simple rest api inspired by Terry himself.
+this is a simple api inspired by Terry himself.
 
 THE API IS LOCATED AT: https://api.thcotd.repl.co
 
