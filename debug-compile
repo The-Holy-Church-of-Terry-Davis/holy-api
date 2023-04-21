@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+echo "THIS IS A DEBUG VERSION"
+
+sudo lsof -i :8080
+
+OUTPUT=$1
+
+if [ -z "$1" ]
+then
+        OUTPUT="./debug-api"
+fi
+
+echo "compiling:"
+find src/ -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | while read -d $'\0' file
+do
+        echo "  $file"
+done
+echo "output file: $OUTPUT"
+
+find src/ -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | xargs -0 g++ -g -std=c++11 -o $OUTPUT || { echo 'compilation failed' ; exit 1; }
+
+echo "done."

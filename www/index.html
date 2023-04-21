@@ -7,13 +7,18 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
+      <img id="Terry" src="Terry.png" />
       <h1 id="title">Hello!</h1>
       <h3 id="subtitle">Here are the endpoints:</h3>
       <pre>
-        (none of these work right now, except for `/`)
-        /          :  this.  
-        /godsay    :  uhhh, godsay. `?word=10` defines how many words.
-        /quote     :  returns a quote from Terry.
+        /                 :  this.
+        /status           :  if the API is up, it returns `OK`.
+        /info             :  shows some information about the API and who THCoTD is.
+        /vocab            :  shows `vocab.txt`.
+        /godsay           :  uhhh, godsay. `?amount=10` defines how many words.
+        /quote            :  returns a quote from Terry. `?amount=10` defines how many quotes.
+        /divineintellect  :  returns how much divine intellect you have!
+        /askterry         :  ask Terry a yes/no question and he'll respond!
       </pre>
   </body>
 </html>

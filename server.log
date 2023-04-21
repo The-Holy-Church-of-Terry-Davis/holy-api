@@ -1,52 +1,15 @@
-[INFO] [2023-04-20 14:15:14 UTC] Handle request for path: /
-[INFO] [2023-04-20 14:15:14 UTC] File opened: ./www/index.html
-[INFO] [2023-04-20 14:15:14 UTC] File sent: ./www/index.html
-[INFO] [2023-04-20 14:16:08 UTC] Handle request for path: /index.html
-[INFO] [2023-04-20 14:16:08 UTC] File opened: ./www/index.html
-[INFO] [2023-04-20 14:16:08 UTC] File sent: ./www/index.html
-[INFO] [2023-04-20 14:16:17 UTC] Handle request for path: /favicon.ico
-[INFO] [2023-04-20 14:16:17 UTC] File opened: ./www/favicon.ico
-[INFO] [2023-04-20 14:16:17 UTC] File sent: ./www/favicon.ico
-[INFO] [2023-04-20 14:16:22 UTC] Handle request for path: /style.css
-[INFO] [2023-04-20 14:16:22 UTC] File opened: ./www/style.css
-[INFO] [2023-04-20 14:16:22 UTC] File sent: ./www/style.css
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:16:39 UTC] Handle request for path: /404
-[ERROR] [2023-04-20 14:16:39 UTC] File not found: ./www/404
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
-[INFO] [2023-04-20 14:17:16 UTC] Handle request for path: /server.cpp
-[ERROR] [2023-04-20 14:17:16 UTC] File not found: ./www/server.cpp
+[INFO] [2023-04-21 03:16:23 UTC] Creating server socket
+[INFO] [2023-04-21 03:16:23 UTC] Binding socket to port 8080
+[INFO] [2023-04-21 03:16:23 UTC] Listening for incoming connections
+[INFO] [2023-04-21 03:16:23 UTC] Server started, http://localhost:8080
+[INFO] [2023-04-21 03:16:25 UTC] Successfully served www/favicon.ico
+[INFO] [2023-04-21 03:16:27 UTC] Successfully served www/favicon.ico
+[INFO] [2023-04-21 03:16:28 UTC] Successfully served www/favicon.ico
+[INFO] [2023-04-21 03:16:29 UTC] Successfully served www/favicon.ico
+[INFO] [2023-04-21 03:16:31 UTC] Successfully served index.html
+[INFO] [2023-04-21 03:16:32 UTC] Successfully served www/Terry.png
+[INFO] [2023-04-21 03:16:32 UTC] Successfully served www/style.css
+[INFO] [2023-04-21 03:16:45 UTC] Successfully served index.html
+[INFO] [2023-04-21 03:16:45 UTC] Successfully served www/style.css
+[INFO] [2023-04-21 03:16:45 UTC] Successfully served www/Terry.png
+[INFO] [2023-04-21 03:16:46 UTC] Successfully served www/favicon.ico
