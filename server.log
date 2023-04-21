@@ -1,15 +1,8 @@
-[INFO] [2023-04-21 03:16:23 UTC] Creating server socket
-[INFO] [2023-04-21 03:16:23 UTC] Binding socket to port 8080
-[INFO] [2023-04-21 03:16:23 UTC] Listening for incoming connections
-[INFO] [2023-04-21 03:16:23 UTC] Server started, http://localhost:8080
-[INFO] [2023-04-21 03:16:25 UTC] Successfully served www/favicon.ico
-[INFO] [2023-04-21 03:16:27 UTC] Successfully served www/favicon.ico
-[INFO] [2023-04-21 03:16:28 UTC] Successfully served www/favicon.ico
-[INFO] [2023-04-21 03:16:29 UTC] Successfully served www/favicon.ico
-[INFO] [2023-04-21 03:16:31 UTC] Successfully served index.html
-[INFO] [2023-04-21 03:16:32 UTC] Successfully served www/Terry.png
-[INFO] [2023-04-21 03:16:32 UTC] Successfully served www/style.css
-[INFO] [2023-04-21 03:16:45 UTC] Successfully served index.html
-[INFO] [2023-04-21 03:16:45 UTC] Successfully served www/style.css
-[INFO] [2023-04-21 03:16:45 UTC] Successfully served www/Terry.png
-[INFO] [2023-04-21 03:16:46 UTC] Successfully served www/favicon.ico
+[INFO] [2023-04-21 04:00:15 UTC] Creating server socket
+[INFO] [2023-04-21 04:00:15 UTC] Binding socket to port 8080
+[INFO] [2023-04-21 04:00:15 UTC] Listening for incoming connections
+[INFO] [2023-04-21 04:00:15 UTC] Server started, http://localhost:8080
+[INFO] [2023-04-21 04:00:16 UTC] Successfully served index.html
+[INFO] [2023-04-21 04:00:16 UTC] Successfully served www/style.css
+[INFO] [2023-04-21 04:00:16 UTC] Successfully served www/Terry.png
+[INFO] [2023-04-21 04:00:16 UTC] Successfully served www/favicon.ico

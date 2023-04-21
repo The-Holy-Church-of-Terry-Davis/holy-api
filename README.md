@@ -3,6 +3,8 @@
 hello, ok so...
 this is a simple rest api inspired by Terry himself.
 
+THE API IS LOCATED AT: https://api.thcotd.repl.co
+
 `www` will host the endpoints and what not.
 
 `./compile` compiles the project into a single executable: `./api`
